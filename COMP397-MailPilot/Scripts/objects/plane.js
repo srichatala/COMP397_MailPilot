@@ -23,6 +23,10 @@ var objects;
         Plane.prototype.update = function () {
             this.x = stage.mouseX;
         };
+        Plane.prototype.destroy = function () {
+            this.engineSound.stop();
+            game.removeChild(this.image);
+        };
         return Plane;
     })(createjs.Bitmap);
     objects.Plane = Plane;

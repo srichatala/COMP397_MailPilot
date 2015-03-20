@@ -33,6 +33,9 @@ var objects;
                 this.reset();
             }
         };
+        Island.prototype.destroy = function () {
+            game.removeChild(this.image);
+        };
         return Island;
     })(objects.GameObject);
     objects.Island = Island;
