@@ -1,3 +1,10 @@
+// Mail_Pilot game for COMP397
+
+// Author: Srinivasarao Chatala
+// Last modified by: Srinivasarao Chatala
+// Last modified date:03/20/2015
+// Description: This is the game to pand plane on an iceland without touching the clouds
+
 /// <reference path="typings/createjs-lib/createjs-lib.d.ts" />
 /// <reference path="typings/easeljs/easeljs.d.ts" />
 /// <reference path="typings/tweenjs/tweenjs.d.ts" />
